@@ -1,7 +1,7 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3-pip -y
-sudo pip3 install xlwt
-sudo pip3 install num2words
+sudo pip3 install xlwt -y
+sudo pip3 install num2words -y
 sudo apt install postgresql -y
 wget -q -O - https://nightly.odoo.com/odoo.key | sudo gpg --dearmor -o /usr/share/keyrings/odoo-archive-keyring.gpg
 echo 'deb [signed-by=/usr/share/keyrings/odoo-archive-keyring.gpg] https://nightly.odoo.com/16.0/nightly/deb/ ./' | sudo tee /etc/apt/sources.list.d/odoo.list
